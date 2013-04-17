@@ -62,7 +62,21 @@ body {
 	-moz-box-shadow: 0 0 5px #888;
 	-webkit-box-shadow: 0 0 5px #888;
 	box-shadow: 0 0 5px #888;
+}
+
+.padding-view {
 	padding: 10px;
+}
+
+.login-label {
+	font-size: 15px;
+}
+
+input[type=text] {
+	width: 80%;
+	padding: 1px 5px;
+	border: 1px solid #333;
+	font-size: 15px;
 }
 
 h1 {
