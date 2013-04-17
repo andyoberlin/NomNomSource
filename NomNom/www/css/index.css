@@ -86,7 +86,7 @@ input[type=password] {
 	font-size: 24px;
 }
 
-.login-submit {
+#login-submit {
 	border: 1px solid black;
 	padding: 5px;
 	border-radius: 7px;
