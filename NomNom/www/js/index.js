@@ -33,8 +33,9 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-    	$('#login-submit').on('mouseup mouseleave mousedown', function(e) {
-    		$(this).toggleClass('active', e.type == 'mousedown');
+    	$('#login-submit').on('touchstart touchend', function(e) {
+    		$(this).toggleClass('active', e.type = 'touchstart');
+    		alert(e.type);
     	});
     	
     	$('#login-submit').on('click', function() {
