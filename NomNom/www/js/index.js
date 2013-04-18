@@ -40,11 +40,5 @@ var app = {
     	$('#login-submit').on('click', function() {
     		window.location = 'home.html';
     	});
-		
-		// Prevent scrolling
-		document.body.addEventListener('touchmove', function(e) {
-			e.preventDefault();
-		}, false);
-		
     }
 };
