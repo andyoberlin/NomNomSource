@@ -42,7 +42,7 @@ var app = {
     	});
 		
 		$('body').on('touchmove', function(e) {
-			e.preventDefault
+			e.preventDefault();
 		});
 		
 		document.addEventListener('touchmove', function(e){ e.preventDefault(); }, false);
