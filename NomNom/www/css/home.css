@@ -4,8 +4,8 @@
 
 .screen {
 	width: 100%;
-	height: 100px;
 	background-color: #048a42;
+	top: 0px;
 }
 
 #create-game {
