@@ -38,7 +38,6 @@ var app = {
     	});
     	
     	$('#login-submit').on('click', function() {
-    		alert('clicked');
     		window.location = 'home.html';
     	});
     }

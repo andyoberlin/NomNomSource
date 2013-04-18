@@ -1,0 +1,23 @@
+.bar {
+	width: 100%;
+	height: 50px;
+	background-color: #0D2539;
+	padding: 5px;
+}
+
+.left-buttons {
+	float: left;
+}
+
+.right-buttons {
+	float: right;
+}
+
+.bar-icon {
+	height: 40px;
+	display: inline-table;
+}
+
+.bar-icon img {
+	height: 100%;
+}
