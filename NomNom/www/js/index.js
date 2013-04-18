@@ -35,11 +35,11 @@ var app = {
     onDeviceReady: function() {
     	$('#login-submit').on('touchstart touchend', function(e) {
     		$(this).toggleClass('active', e.type = 'touchstart');
-    		alert(e.type);
     	});
     	
     	$('#login-submit').on('click', function() {
-    		alert('mouseClicked');
+    		alert('clicked');
+    		window.location = 'home.html';
     	});
     }
 };
