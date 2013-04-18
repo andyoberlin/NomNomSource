@@ -6,6 +6,6 @@ $('#settings').on('click', function() {
 	window.location = 'settings.html';
 });
 
-$('body').on('touchmove', function(evt) {
-    evt.preventDefault(); 
-})
+$('body').on('touchmove', function(e) {
+    e.preventDefault(); 
+});

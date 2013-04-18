@@ -10,7 +10,6 @@ $('#create-game').on('click', function() {
 	window.location = 'settings.html';
 });
 
-// Prevent scrolling
-document.body.on('touchmove', function(e) {
-	e.preventDefault();
-}, false);
+$('.app').on('touchmove', function(e) {
+    e.preventDefault(); 
+});
