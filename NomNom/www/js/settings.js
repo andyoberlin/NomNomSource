@@ -5,7 +5,3 @@ $('#home').on('click', function() {
 $('#settings').on('click', function() {
 	window.location = 'settings.html';
 });
-
-$('body').on('touchmove', function(e) {
-    e.preventDefault(); 
-});

@@ -9,7 +9,3 @@ $('#settings').on('click', function() {
 $('#create-game').on('click', function() {
 	window.location = 'settings.html';
 });
-
-$('.app').on('touchmove', function(e) {
-    e.preventDefault(); 
-});

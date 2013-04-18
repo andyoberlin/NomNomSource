@@ -40,5 +40,11 @@ var app = {
     	$('#login-submit').on('click', function() {
     		window.location = 'home.html';
     	});
+		
+		$('body').on('touchmove', function(e) {
+			e.preventDefault
+		});
+		
+		document.addEventListener('touchmove', function(e){ e.preventDefault(); }, false);
     }
 };
