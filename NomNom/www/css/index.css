@@ -56,7 +56,7 @@ body {
 	min-height: 80%;
 	width: 100%;
 	top: 10%;
-	background-color: #274257;
+	background-color: #648CAB;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	-moz-box-shadow: 0 0 5px #888;
@@ -88,15 +88,16 @@ input[type=password] {
 
 #login-submit {
 	border: 1px solid black;
-	padding: 5px;
+	padding: 10px;
 	border-radius: 7px;
-	background-color: #dfc184;
+	background-color: #274257;
 	font-size: 24px;
 	color: white;
 	float: right;
+	margin-top: 5px;
 }
 
-.login-submit:active {
+#login-submit:active {
 	-moz-box-shadow: inset 0 0 8px #888;
 	-webkit-box-shadow: inset 0 0 8px#888;
 	box-shadow: inset 0 0 8px #888;
