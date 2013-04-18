@@ -11,6 +11,6 @@ $('#create-game').on('click', function() {
 });
 
 // Prevent scrolling
-document.body.addEventListener('touchmove', function(e) {
+document.body.on('touchmove', function(e) {
 	e.preventDefault();
 }, false);
