@@ -42,11 +42,36 @@
             		</div>
             	</div>
             </div>
-            <div class="screen">
-				<div id="create-game">Create Game</div>
-            </div>
+            <div class="body">
+            	<div class="start-game">
+            		<div class="start-game-button">
+            			<div>
+            				<span>Start Game</span>
+            			</div>
+            		</div>
+            	</div>
+            	<div id="yourTurn" class="section">
+            		<div class="header">
+            			<span>Your Turn</span>
+            		</div>
+            		<div class="games-container">
+            			
+            		</div>
+            	</div>
+            	<div id="theirTurn" class="section">
+            		<div class="header">
+            			<span>Their Turn</span>
+            		</div>
+            		<div class="games-container">
+            		
+            		</div>
+				</div>
+			</div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
-		<script type="text/javascript" src="js/home.js"></script>
+		<script type="text/javascript" src="js/navbar.js"></script>
+		<script type="text/javascript">
+			navbar.initialize();
+		</script>
     </body>
 </html>

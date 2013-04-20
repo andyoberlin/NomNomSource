@@ -1,5 +1,28 @@
-.app {
-	width: 100%;
+.start-game {
+	background-color: transparent;
+}
+
+.start-game-button {
+	width: 200px;
+	border-radius: 21px;
+	border: 2px solid black;
+	color: white;
+	background-color: #00CC00;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	font-size: 30px;
+	margin: 12px auto;
+}
+
+.start-game-button > div {
+	border: 2px solid white;
+	border-radius: 19px;
+	height: calc(100% - 4px);
+}
+
+.games-container {
+	min-height: 80px;
 	height: 100%;
 }
 

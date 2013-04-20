@@ -10,3 +10,25 @@ body {
     padding: 0px;
     width: 100%;
 }
+
+.app {
+	width: 100%;
+	height: 100%;
+}
+
+.body {
+	width: 100%;
+	overflow-y: auto;
+}
+
+.section {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-top: 10px;
+}
+
+.section .header {
+	border-bottom: 1px solid black;
+	padding: 12px;
+	font-size: 28px;
+}
