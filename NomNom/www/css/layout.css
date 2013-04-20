@@ -29,7 +29,6 @@ body {
 }
 
 .section {
-	border: 2px solid black;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	border-radius: 19px;
@@ -41,7 +40,10 @@ body {
 }
 
 .section .header {
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid #CCC;
 	padding: 12px;
 	font-size: 28px;
+	background-color: #274257;
+	color: white;
+	border-radius: 10px 10px 0px 0px;
 }

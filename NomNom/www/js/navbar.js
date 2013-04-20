@@ -32,12 +32,14 @@ var navbar = {
 			window.location = 'settings.html';
 		});
 		
-		$('#home').on('touchstart touchend'), function(e) {
-			$(this).toggleClass('navbarActive', e.type == 'touchstart');
+		$('#home').on('touchstart touchend', function(e) {
+			$(this).toggleClass('navbarActive', e.type = 'touchstart');
 		});
 		
-		$('#settings').on('touchstart touchend'), function(e) {
-			$(this).toggleClass('navbar-active', e.type == 'touchstart');
+		$('#settings').on('touchstart touchend', function(e) {
+			$(this).toggleClass('navbar-active', e.type = 'touchstart');
 		});
     }
 };
+
+navbar.initialize();
