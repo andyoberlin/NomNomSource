@@ -22,3 +22,7 @@
 .bar-icon img {
 	height: 100%;
 }
+
+.active-navbar {
+	background-color: #648CAB;
+}

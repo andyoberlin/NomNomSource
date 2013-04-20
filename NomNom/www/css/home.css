@@ -18,7 +18,7 @@
 .start-game-button > div {
 	border: 2px solid white;
 	border-radius: 19px;
-	height: calc(100% - 4px);
+	height: 56px;
 }
 
 .games-container {

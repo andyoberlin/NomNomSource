@@ -22,5 +22,13 @@ var navbar = {
 		$('#settings').on('click', function() {
 			window.location = 'settings.html';
 		});
+		
+		$('#home').on('touchstart touchend'), function(e) {
+			$(this).toggleClass('navbarActive', e.type == 'touchstart');
+		});
+		
+		$('#settings').on('touchstart touchend'), function(e) {
+			$(this).toggleClass('navbar-active', e.type == 'touchstart');
+		});
     }
 };
