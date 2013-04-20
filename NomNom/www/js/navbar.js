@@ -1,7 +1,8 @@
 var navbar = {
     // Application Constructor
     initialize: function() {
-        this.bindEvents();
+        //this.bindEvents();
+        this.onDeviceReady();
     },
     // Bind Event Listeners
     //
@@ -15,6 +16,14 @@ var navbar = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
+    	var resize = function() {
+    		$('body').height($(window).height());
+    	};
+    	
+    	resize();
+    	
+    	$(window).on('resize', resize);
+    
     	$('#home').on('click', function() {
 			window.location = 'home.html';
 		});
