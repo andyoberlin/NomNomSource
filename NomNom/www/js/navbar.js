@@ -17,7 +17,7 @@ var navbar = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
     	var resize = function() {
-    		$('body').height($(window).height());
+    		$('.app').height($(window).height());
     		$('.games-container').each(function() {
     			$(this).text('It has been done');
     		});
@@ -36,11 +36,11 @@ var navbar = {
 		});
 		
 		$('#home').on('touchstart touchend', function(e) {
-			$(this).toggleClass('navbarActive', e.type = 'touchstart');
+			$(this).toggleClass('navbar-active', e.type == 'touchstart');
 		});
 		
 		$('#settings').on('touchstart touchend', function(e) {
-			$(this).toggleClass('navbar-active', e.type = 'touchstart');
+			$(this).toggleClass('navbar-active', e.type == 'touchstart');
 		});
     }
 };
