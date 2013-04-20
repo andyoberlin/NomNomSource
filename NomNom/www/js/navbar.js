@@ -1,8 +1,8 @@
 var navbar = {
     // Application Constructor
     initialize: function() {
-        //this.bindEvents();
-        this.onDeviceReady();
+        this.bindEvents();
+        //this.onDeviceReady();
     },
     // Bind Event Listeners
     //
@@ -17,11 +17,9 @@ var navbar = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
     	var resize = function() {
-    		$('.app').height($(window).height());
-    		$('.games-container').each(function() {
-    			$(this).text('window height: ' + $('.app').height() + ', app height: ' + $('.app').height() + 
-    				', screen height: ' + screen.height);
-    		});
+    		var height = $(window).height();
+    		$('.app').height(height);
+    		$('.body').height(height - $('.bar').outerHeight());
     	};
     	
     	resize();
