@@ -1,8 +1,8 @@
 var navbar = {
     // Application Constructor
     initialize: function() {
-        //this.bindEvents();
-        this.onDeviceReady();
+        this.bindEvents();
+        //this.onDeviceReady();
     },
     // Bind Event Listeners
     //
@@ -18,6 +18,9 @@ var navbar = {
     onDeviceReady: function() {
     	var resize = function() {
     		$('body').height($(window).height());
+    		$('.games-container').each(function() {
+    			$(this).text('It has been done');
+    		});
     	};
     	
     	resize();
