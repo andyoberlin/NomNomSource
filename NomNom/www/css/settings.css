@@ -1,10 +1,30 @@
-.app {
-	width: 100%;
+.options-container {
+	min-height: 80px;
+	height: 100%;
 }
 
-.screen {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: #542757;
+.option {
+	font-size: 24px;
+	color: black;
+	padding: 14px;
+}
+
+span.option-switch-container {
+	border: 2px solid black;
+	background-color: white;
+	border-radius: 7px;
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	float: right;
+}
+
+span.option-switch {
+	margin-top: 2px;
+	margin-left: 2px;
+	background-color: #274257;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	border-radius: 7px;
 }
